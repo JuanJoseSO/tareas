@@ -1,0 +1,13 @@
+ 	************* Aplicación Tareas -- JPA y MySql *************
+1º. Configuración y descarga desde SpringBoot initialzr
+2º. Open new project de la carpeta descomprimida.
+3º. Configuramos application.properties y iniciamos la aplicación. Esto ya crea la base de datos.
+4º. Creamos la clase Tarea con sus anotaciones (@Entity hace que al iniciar la aplicación cree la tabla directamente).
+5º. Creamos la Interfaz TareaRepositorio (@Repository) que extiendo de JpaRepository<Class,id type>
+6º. Creamos el paquete de servicio con la interfaz con los métodos que tendremos que implementar en la clase TareaServicio.
+7º. En el mismo paquete de servicio, creamos la clase TareaServicio, implementamos la interzas y creamos los métodos.
+8º. Cargamos las dependencias de javafx en el pom.xml.
+	Además, debemos añadir el directorio templates en resources, donde agregaremos plantillas y componentes.
+	Ahora podremos crear archivos fxml.
+9º. Creamos el archivo index.fxml
+10º. Creamos el paquete controlador y la clase IndexControlador, que debe implementar la interfaz Initializable de JFX y sus métodos.
