@@ -20,5 +20,5 @@ public class Tarea {
     private Integer idTarea;
     private String nombreTarea;
     private String responsable;
-    private String estatus;
+    private String estado;
 }

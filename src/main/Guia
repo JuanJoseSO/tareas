@@ -11,3 +11,6 @@
 	Ahora podremos crear archivos fxml.
 9º. Creamos el archivo index.fxml
 10º. Creamos el paquete controlador y la clase IndexControlador, que debe implementar la interfaz Initializable de JFX y sus métodos.
+11º. Creamos el paquete presentación y la clase de JavaFX SistemaTareas, aunque crea de forma automática el método main y el start(),
+        usaremos el método main de la clase TareasApplication que es la que forma parte de spring.
+      El método start es el que permitirá iniciar la aplicación de JavaFx.
